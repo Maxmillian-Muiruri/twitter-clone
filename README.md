@@ -4,7 +4,7 @@ A simple, responsive Twitter clone built with TypeScript, HTML, and CSS.
 This project demonstrates how to consume public REST APIs to display users, posts, and comments in a Twitter-like interface.
 
 **Demo:**  
-You can see live demo at []](https://twitter-clone-kvdd.vercel.app/)
+ [view live site here ]](https://twitter-clone-kvdd.vercel.app/)
 
 ## Features
 
