@@ -2,14 +2,22 @@
   "version": 2,
   "builds": [
     {
-      "src": "dist/**/*",
+      "src": "index.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "style.css",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "dist/index.js",
       "use": "@vercel/static"
     }
   ],
   "routes": [
     {
-      "src": "/(.*)",
-      "dest": "dist/twitter-clone.html"
+      "src": "/",
+      "dest": "/index.html"
     }
   ]
 }

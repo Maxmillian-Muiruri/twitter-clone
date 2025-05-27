@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "A simple, responsive Twitter clone built with TypeScript, HTML, and CSS.",
   "scripts": {
-    "build": "tsc && cp twitter-clone.html style.css dist/",
+    "build": "tsc",
     "dev": "tsc --watch",
-    "preview": "serve dist"
+    "preview": "serve ."
   },
   "devDependencies": {
     "typescript": "^5.8.3",
