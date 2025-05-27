@@ -12,6 +12,20 @@
   --reply-blue: #1da1f2;
 }
 
+/* Dark Mode Overrides */
+body.dark-mode {
+  --primary: #1da1f2;
+  --primary-light: #15202b;
+  --text: #d9d9d9;
+  --text-light: #8899a6;
+  --border: #38444d;
+  --background: #15202b;
+  --hover-bg: #22303c;
+  --like-red: #f91880;
+  --retweet-green: #17bf63;
+  --reply-blue: #1da1f2;
+}
+
 /* Base Styles */
 body,
 html {
